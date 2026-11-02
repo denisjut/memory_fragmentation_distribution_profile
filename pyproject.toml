@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "denisjut-cvalgo_jd218"
+name = "denisjut-memory_fragmentation_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别计算机视觉算法工程师·显存碎片与分配策略上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://denisjut.github.io"
-Repository = "https://github.com/denisjut/cvalgo_jd218"
-Issues = "https://github.com/denisjut/cvalgo_jd218/issues"
+Repository = "https://github.com/denisjut/memory_fragmentation_distribution_profile"
+Issues = "https://github.com/denisjut/memory_fragmentation_distribution_profile/issues"
 
 [project.scripts]
-cvalgo_jd218 = "cvalgo_jd218:main"
+memory_fragmentation_distribution_profile = "memory_fragmentation_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["cvalgo_jd218"]
+py-modules = ["memory_fragmentation_distribution_profile"]
